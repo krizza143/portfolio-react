@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&family=Poppins:wght@400;500;600;700&display=swap');
+@import './variables';
+
+html{
+    scroll-behavior: smooth;
+}
+.padding{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    @media (min-width:992px) {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    @media (max-width:768px) {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+}
+body{
+    font-family: $fontPoppins;
+    h1,h2,h3,h4,h5,h6 {
+        color:$headerDark;
+    }
+    h1,h2,h3{
+        font-weight: 700;
+    }
+    h1 {
+        font-size: $h2fontsize;
+    }
+    p{
+        color:$textColor;
+        font-size: $pfontsize;
+        line-height: 1.7rem;
+        @media (max-width:576px){
+            font-size: $pfontsizem;
+        }
+    }
+    h4{
+        line-height: 2rem;
+    }
+    .btn{
+        width: 170px;
+        height: 50px;
+        font-weight: 500;
+        border-radius: 50px;
+        border: 2px solid $BtnTextDark;
+        p{ 
+            color: $BtnTextDark;
+            padding-top: .2rem;
+            margin: 0;
+            &:hover, &:active, &:focus{
+                color: $BtnTextWhite;
+            }
+        }
+        &:hover, &:active, &:focus{
+            background-color: $primaryBtn;
+            border-color: $primaryBtn;
+            box-shadow:none;
+        }
+        @media (max-width : 991.5px) and (min-width: 768px){
+            width: 192px;
+        }
+        @media (max-width: 767.5px){
+            width: 300px;
+        }
+        @media (max-width:667px){
+            width: 100%;
+        }
+    }
+} 
+
+.banner{
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/design1.png);
+    background-color: $darkbg;
+	background-size: contain;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+    clip-path: polygon(50% 0%, 100% 0, 100% 93%, 0 100%, 0 0);
+    h1{
+        color: $headerWhite;
+        font-size: 3.5rem;
+        @media (max-width:600px) {
+            line-height: 50px;
+            margin-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
+    p{
+        color: $headerWhite;
+    }
+    .btn {
+        color: $BtnTextWhite;
+        border: 2px solid $outlineBtn;
+        p{ 
+            color: $BtnTextWhite;
+            &:hover, &:active, &:focus{
+                color: $BtnTextWhite;
+            }
+        }
+        @media (max-width: 767.5px){
+            margin-bottom: 0.9rem;
+        }
+    }
+    @media (max-width:600px) {
+        text-align: center;
+        padding-top: 70px;
+        padding-bottom:90px;
+    }
+}
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    width: 100vh;
+    z-index: 1;
+}
+.content1 img{
+    border-radius: 50%;
+    @media (min-width: 1199px){
+        width: 80%;
+    }
+    @media (max-width : 991.5px) and (min-width: 768px){
+        width: 55%;
+    }
+    @media only screen and (max-width: 991.5px) {
+        padding-bottom: 0.7rem;
+    }
+}
+#worksexp{
+    background-color: $sectionbg;
+    ol.carousel-indicators{
+        justify-content: left;
+        margin: 0px;
+    }
+    .carousel-item{
+        margin-bottom: 1rem;
+    }
+    .carousel-indicators li{
+        background-color: $headerDark;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+    }
+    h4{
+        margin-bottom: 0px;
+    }
+}
+
+#works{
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Skills.jpg);
+	background-color: $darkbg;
+	background-size: cover;
+	background-position:center center;
+	background-repeat: no-repeat;
+    h4 {
+        margin: 0;
+        padding: 0;
+        font-weight: 600;
+    }
+    h1,h2,h3,h4,h5,p,small{
+        color: $headerWhite;
+    }
+    .box {
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+        background: $darkbg;
+        overflow: hidden;
+    }
+    .box:hover .figure img {
+        transform: scale(1);
+    }
+    .figure {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .figure img {
+        height: 100%;
+        width: 100%;
+        transition: .5s;
+    }
+    .caption {
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: $darkbg;
+        transform: scale(1);
+        opacity: 0;
+        transition: .5s;
+    }
+    .box:hover .caption {
+        transform: scale(1);
+        opacity: 1;
+    }
+    .cap {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        box-sizing: border-box;
+        text-align: center;
+        p,  a, a:hover{
+            margin: 20px 0 0;
+            padding: 0;
+            font-size: 16px;
+        }
+    }
+    .btn {
+        border: 2px solid $outlineBtn;
+        &:hover, &:active, &:focus{
+            border-color: $primaryBtn;
+        }
+    }
+}
+#skills{
+    background-color: $sectionbg;
+    p{
+      color: $headerDark;
+      font-weight: 500;
+    }
+    .fab,.fas{
+        font-size: 45px;
+    }
+    .fa-star{
+        color: $textColor;
+        margin: 0 1px;
+        font-size: 17.5px;
+    }
+    .skill{
+        padding: 1rem;
+    }
+}
+
+#contact{
+	background-image: url('../img/bg_website1.png');
+	background-size: cover;
+	background-position:center center;
+	background-repeat: no-repeat;
+    i{
+        color:$headerDark;
+        margin: 5px;
+    }
+    p a{
+        color:$textColor;
+    }
+    .cimage{
+        background-image: url('../img/contact.jpg');
+        background-size: cover;
+        background-position:center center;
+        background-repeat: no-repeat;
+        height: 500px;
+        border-radius: 10px;
+    }
+}
+
+
+footer {
+	padding: 20px 0;
+	background-color: $darkbg;
+	background-size: cover;
+	background-position:center center;
+	background-repeat: no-repeat;
+    text-align: center;
+    p{
+        font-family: $fontPoor;
+        margin: 0;
+        color: $headerWhite;
+    }
+}
+/*----------------------------------------------------------------
+  Scroll
+----------------------------------------------------------------*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+/*----------------------------------------------------------------
+  Animation
+----------------------------------------------------------------*/
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+@-webkit-keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateX(0);
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+}
+.fadeInLeft {
+ -webkit-animation-name: fadeInLeft;
+ animation-name: fadeInLeft;
+} 
+@-webkit-keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInDown {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+}
+.fadeInDown {
+ -webkit-animation-name: fadeInDown;
+ animation-name: fadeInDown;
+} 
+@-webkit-keyframes fadeInUp {
+    0% {
+       opacity: 0;
+       -webkit-transform: translateY(20px);
+    }
+    100% {
+       opacity: 1;
+       -webkit-transform: translateY(0);
+    }
+}
+@keyframes fadeInUp {
+    0% {
+       opacity: 0;
+       transform: translateY(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateY(0);
+    }
+}
+.fadeInUp {
+ -webkit-animation-name: fadeInUp;
+ animation-name: fadeInUp;
+} 
