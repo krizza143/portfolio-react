@@ -17,6 +17,7 @@ html{
     }
 }
 body{
+    background-color: $darkbg;
     font-family: $fontPoppins;
     h1,h2,h3,h4,h5,h6 {
         color:$headerDark;
@@ -27,10 +28,11 @@ body{
     h1 {
         font-size: $h2fontsize;
     }
-    p{
+    p, p a, p a:hover{
         color:$textColor;
         font-size: $pfontsize;
         line-height: 1.7rem;
+        text-decoration: none;
         @media (max-width:576px){
             font-size: $pfontsizem;
         }
@@ -61,23 +63,30 @@ body{
             width: 192px;
         }
         @media (max-width: 767.5px){
-            width: 300px;
-        }
-        @media (max-width:667px){
-            width: 100%;
+            width: 280px;
         }
     }
 } 
-
+.tsparticles-canvas-el{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index:-1;
+}
+.main-info{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index:2;
+}
 .banner{
+    position: relative;
+    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Asset0.png) no-repeat;
     padding-top: 15%;
     padding-bottom: 15%;
-    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/design1.png);
-    background-color: $darkbg;
 	background-size: contain;
 	background-position: bottom right;
-	background-repeat: no-repeat;
-    clip-path: polygon(50% 0%, 100% 0, 100% 93%, 0 100%, 0 0);
     h1{
         color: $headerWhite;
         font-size: 3.5rem;
@@ -109,26 +118,59 @@ body{
         padding-bottom:90px;
     }
 }
-.tsparticles-canvas-el{
-    position: absolute;
-    height: 100vh;
-    width: 100vh;
-    z-index: 1;
+#aboutme{
+    background-color: $whitebg;
+    h5{
+        font-size: 1.3rem;
+    }
+    i{
+        font-size: $pfontsize;
+    }
+    p a{
+        font-weight: 500;
+    }
+    @media (max-width: 767.5px){
+        .btn{
+            margin-right:0.5rem;
+            margin-left:0.5rem;
+            margin-bottom: 1rem;
+        }
+        .buttonssssss{
+            text-align: center;
+            margin: auto;
+        }
+    }
+    @media (max-width:600px){
+        h5{
+            font-size: 1.2rem;
+        }
+    }
+    @media (max-width:320.5px){
+        .btn{
+            margin-right:0rem;
+            margin-left:0rem;
+        }
+    }
 }
-.content1 img{
-    border-radius: 50%;
-    @media (min-width: 1199px){
-        width: 80%;
-    }
-    @media (max-width : 991.5px) and (min-width: 768px){
-        width: 55%;
-    }
-    @media only screen and (max-width: 991.5px) {
-        padding-bottom: 0.7rem;
+.content1 {
+        img{
+        border-radius: 50%;
+        @media (min-width: 1199px){
+            width: 80%;
+        }
+        @media (max-width : 991.5px) and (min-width: 768px){
+            width: 55%;
+        }
+        @media only screen and (max-width: 991.5px) {
+            padding-bottom: 1rem;
+        }
     }
 }
 #worksexp{
     background-color: $sectionbg;
+    .carousel-control-prev,.carousel-control-next{
+        display: none;
+    }
     ol.carousel-indicators{
         justify-content: left;
         margin: 0px;
@@ -145,10 +187,18 @@ body{
     h4{
         margin-bottom: 0px;
     }
+    small{
+        font-size:17px;
+    }
+    @media (max-width:600px) {
+        .carousel-indicators li{
+            margin: 0 10px;
+        }
+    }
 }
 
 #works{
-    background: linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/Skills.jpg);
+    background: linear-gradient(0deg,rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url(../img/Skills.jpg);
 	background-color: $darkbg;
 	background-size: cover;
 	background-position:center center;
@@ -188,7 +238,7 @@ body{
         left: 0;
         width: 100%;
         height: 100%;
-        background: $darkbg;
+        background: $primaryBtn;
         transform: scale(1);
         opacity: 0;
         transition: .5s;
@@ -219,6 +269,23 @@ body{
 }
 #skills{
     background-color: $sectionbg;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    @media (max-width:768.5px){
+        padding-top:10%;
+        padding-bottom:5%;
+        h4{
+            font-size: 22px;
+        }
+        .fa-star {
+            font-size: 24.5px!important;
+        }
+    }
+    @media (max-width:575px) {
+        .fa-star {
+            font-size: 23px!important;
+        }
+    }
     p{
       color: $headerDark;
       font-weight: 500;
@@ -234,9 +301,91 @@ body{
     .skill{
         padding: 1rem;
     }
+    @media (max-width:1024px) and (min-width:992px){
+        h4{
+            font-size: 1.4rem;
+        }
+    }
 }
-
+.btn.btn-outline-primary:hover, .bg-primary {
+    background-color: #111111 !important;
+}
+section{
+    padding-top: 5%;
+    @media (max-width:768px) {
+        padding-top: 10%;
+    }
+    @media (max-width:575px) {
+        padding-top: 55px;
+    }
+    .paddings{
+        padding-left: 4.5%;
+        padding-right: 4.5%;
+    }
+}
+.section-medium {
+    padding-bottom: 2%;
+}
+.section-arrow--bottom-center:after {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    margin-left: -15px;
+    content: "";
+    position: absolute;
+    bottom: -15px;
+    width: 30px;
+    height: 30px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: #111111;
+}
+section {
+    position: relative;
+    background-color: $whitebg;
+    .text-white{
+        h1,h2,h3,h4,h5,h6,p{
+            color: $headerWhite;
+        }
+    }
+    .testimonial-three{
+        .testimonial-image {
+            float: left;
+            margin: 0 20px 0 0;
+            width: 80px;
+            height: 80px;
+            border-radius: 100px;
+            overflow: hidden;
+        }
+        .testimonial-content {
+            overflow: hidden;
+        }
+        .testimonial-meta {
+            position: relative;
+            overflow: hidden;
+            margin-left: 100px;
+        }
+        .testimonial-name {
+            display: block;
+            @media (max-width:375px) {
+                font-size: $pfontsize;
+            }
+        }
+        .testimonial-three-col {
+            padding-bottom: 35px;
+        }
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+    
 #contact{
+    background-color: $whitebg;
 	background-image: url('../img/bg_website1.png');
 	background-size: cover;
 	background-position:center center;
@@ -255,13 +404,24 @@ body{
         background-repeat: no-repeat;
         height: 500px;
         border-radius: 10px;
+        @media (max-width:991.5px) {
+           padding-left: 20px;
+           padding-right: 20px;
+           margin: auto;
+           margin-bottom:20px;
+           max-width: 96%;
+        }
+    }
+    @media (max-width:767.5px){
+        text-align: center;
     }
 }
 
 
 footer {
 	padding: 20px 0;
-	background-color: $darkbg;
+	background-color: #111111;
+	// background-image: url('../img/Footer.jpg');
 	background-size: cover;
 	background-position:center center;
 	background-repeat: no-repeat;
@@ -372,3 +532,4 @@ footer {
  -webkit-animation-name: fadeInUp;
  animation-name: fadeInUp;
 } 
+
