@@ -43,7 +43,7 @@ const Content2 = () => {
                             <h4>SSC-R de Cavite</h4>
                             <small>May 2013 – May 2017</small>
                             <h6 className="mt-3">Public Relations Office:</h6>
-                                <p>Designed advertising materials such as announcements, tarpaulins, brochures, calendar, cards, etc using Adobe Photoshop. Designed announcements and banners for the school’s website. Maintained the school’s Facebook page. Handled personal, phone, and online inquiries of students, parents, and other institutions. I also photographed school and outside events.
+                                <p>Designed advertising materials such as announcements, tarpaulins, brochures, calendar, cards, etc using Adobe Photoshop and Adobe InDesign. Designed announcements and banners for the school’s website. Maintained the school’s Facebook page. Handled personal, phone, and online inquiries of students, parents, and other institutions. I also photographed school and outside events.
                             </p>      	
                             <h6>Computer Laboratory:</h6>
                                 <p>Managed three computer laboratories. Assisted students and professors with computer usage.
