@@ -17,7 +17,7 @@ const Content2 = () => {
                             <h3 className="mb-0">Full-time Web Designer</h3>
                             <h4>SponsoredLinX</h4>
                             <small>May 2017 – April 2020</small>
-                            <p className="mt-3">SponsoredLinX is a digital marketing agency, delivering advanced digital solutions for SMEs across Australia and New Zealand. I built and designed landing pages for local and foreign clients. Applied styling via HTML and CSS.
+                            <p className="mt-3">SponsoredLinX is a digital marketing agency, delivering advanced digital solutions for SMEs across Australia and New Zealand. I built and designed landing pages and websites for local and foreign clients. Applied styling via HTML and CSS.
                                 Implemented content and styling into the website using CMS such as ConvertoPages (the company's own landing page builder), WordPress, and Duda. Quality checked the designs of fellow web designers before publishing.</p>
                             <p>Provided images and stock from existing website and stock photo libraries. Improved images provided by the client using Adobe Photoshop. Provided SEO meta title, meta keywords, meta description. Used Asana to keep track and manage tasks. Home-based work setup.
                             </p>
