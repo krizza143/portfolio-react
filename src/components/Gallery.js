@@ -14,7 +14,7 @@ import w12 from '../img/portfolio/12.jpg';
 import w13 from '../img/portfolio/13.jpg';
 import w14 from '../img/portfolio/14.jpg';
 import w15 from '../img/portfolio/15.jpg';
-import w16 from '../img/portfolio/16.jpg';
+import w16 from '../img/portfolio/0.jpg';
 import AOS from 'aos';
 
 const Gallery = () => {    
@@ -131,12 +131,12 @@ const Gallery = () => {
 			<div className="col-lg-3 col-md-6 pl-md-1 pr-md-1 mb-3">
 				<div className="box">
 				    <div className="figure">
-                        <img src={w8} />
-				        <a href="https://tiger-hawk-upholstery.com.au/" target="_blank">
+                        <img src={w16} />
+				        <a href="https://www.figma.com/file/ztaUNwiRuYIYUVnc9NzQuE/Fashion_Ecommerce?node-id=0%3A1" target="_blank">
 				        <div className="caption">
 				            <div className="cap">
-				                <h4>Tiger Hawk Upholstery</h4>
-				                <small>Single Page</small>
+				                <h4>MONONO</h4>
+				                <small>Multiple Pages Ecommerce (Ongoing Project)</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -243,14 +243,14 @@ const Gallery = () => {
 			<div className="col-lg-3 col-md-6 pl-md-1 pr-md-1 mb-3">
 				<div className="box">
 				    <div className="figure">
-                        <img src={w16} />
+						<img src={w8} />
+				        <a href="https://tiger-hawk-upholstery.com.au/" target="_blank">
 				        <div className="caption">
-				            <a href="https://drive.google.com/file/d/17uyPuG949kWvEyuymEUJKIZ5ik5MkFLr/view?usp=sharing" target="_blank">
-				            	<div className="cap">
-				                <h4>Viking Prestige Performance Detail</h4>
+				            <div className="cap">
+				                <h4>Tiger Hawk Upholstery</h4>
 				                <small>Single Page</small>
-				            </div></a>
-				        </div>
+				            </div>
+				        </div></a>
 				    </div>
 				</div>
 			</div>
