@@ -38,8 +38,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				            	<h4>SponsoredLinX Reviews</h4>
-				                <small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -53,8 +52,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				            	<h4>Western Cheap Bin Hire</h4>
-								<small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -68,9 +66,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Concrete Solutions</h4>
-				                 <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -84,9 +80,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Ray White Ipswich</h4>
-				                <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -100,8 +94,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>WA Emergency Management</h4>
-				                <small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -115,8 +108,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Cairns Diesel Service</h4>
-								<small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -130,9 +122,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>AEV Photography</h4>
-				                <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -146,9 +136,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Tiger Hawk Upholstery</h4>
-				                <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -162,8 +150,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Williams Electrical</h4>
-				                <small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -177,9 +164,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Platinum Brows Sydney</h4>
-								 <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -193,8 +178,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>One Direction Australia</h4>
-				                <small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -208,9 +192,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>maffey.com</h4>
-				                <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -224,8 +206,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>LML Human Resources</h4>
-				                <small>Created using</small>
-				                <h5>Bootstrap & PHP</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -239,8 +220,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Quick Seal</h4>
-								 <small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -254,8 +234,7 @@ const Gallery = () => {
 				        <div className="caption">
 				            <div className="cap">
 				                <h4>Best Option Training</h4>
-				                <small>Created using</small>
-				                <h5>DUDA</h5>
+				                <small>Multiple Pages</small>
 				            </div>
 				        </div></a>
 				    </div>
@@ -269,9 +248,7 @@ const Gallery = () => {
 				            <a href="https://drive.google.com/file/d/17uyPuG949kWvEyuymEUJKIZ5ik5MkFLr/view?usp=sharing" target="_blank">
 				            	<div className="cap">
 				                <h4>Viking Prestige Performance Detail</h4>
-				                <small>Created using</small>
-				                <h5>Convertopage</h5>
-				                <small>Landing Page Builder owned by SponsoredLinX</small>
+				                <small>Single Page</small>
 				            </div></a>
 				        </div>
 				    </div>

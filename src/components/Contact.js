@@ -7,8 +7,8 @@ const Contact = () => {
     return (
         // <!--Contact-->
         <div id="contact" className="container-fluid padding">
-            <div className="row animated fadeInUp">
-                <div className="col-lg-6 col-md-12 align-self-center cimage" data-aos="fade-up" data-aos-duration="1000">
+            <div className="row" data-aos="fade-up" data-aos-duration="1000">
+                <div className="col-lg-6 col-md-12 align-self-center cimage">
                 </div>
                 <div className="col-lg-6 col-md-12 justify-content-center align-self-center pl-lg-5">
                     <h2 className="mb-3">Contact Me</h2>
